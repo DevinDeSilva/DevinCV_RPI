@@ -1,0 +1,186 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Devin De Silva} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(518) 286-8534 \\ Troy, NY} 
+\address{\href{mailto:desild@rpi.edu}{desild@rpi.edu} \\ \href{https://www.linkedin.com/in/devinyasithdesilva}{LinkedIn} \\ \href{https://devindesilva.github.io/Portfolio-Auto/personal}{Website}\\
+\href{https://devindesilva.github.io/Portfolio-Auto/personal}{GitHub}
+}
+
+%
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf PhD in Computer Science}, \hfill {Expected 2029}\\
+Cumulative GPA: 4.0/4.0 \\
+Rensselaer Polytechnic Institute, NY, USA \\
+First-year 
+
+{\bf B.Sc. Engineering (Hons.) in Computer Science and Engineering} \hfill {2018 - 2023}\\
+Cumulative GPA: 3.76/4.20 (First Class Hons.) \\
+Faculty of Engineering,
+University of Moratuwa, Sri Lanka 
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{SKILLS}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Technical Skills & A, B, C, D
+%\\
+%Soft Skills & A, B, C, D\\
+%XYZ & A, B, C, D\\
+%\end{tabular}\\
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE	
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+\textbf{IBM - Research Intern} \hfill May 2025 - Aug 2025\\
+\href{https://research.ibm.com/labs/yorktown-heights}{Thomas J. Watson Research Center - IBM} \hfill \textit{YorkTown-heights, NY} \\
+ \begin{itemize}
+    \itemsep -15pt {} 
+     \item \textbf{DiagnosticIQ} - A Dataset for Benchmarking Decisions LLMs on Industrial Maintenance from faults to fixes.
+ \end{itemize}
+ 
+\textbf{ML Engineer} \hfill Jun 2023 - Jul 2024\\
+\href{https://irononeailabs.com}{IronOne Technologies} \hfill \textit{Austin, TX} \\
+\href{https://drive.google.com/file/d/18g-9RbiW1LLCa3f9J8CWWccwRikGCOnR/view?usp=sharing}{Service Letter}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Led the development of a system to predict credit card defaulting with explanations.
+     \item Refining the system for extreme class imbalanced data and developing an efficient mechanism \\ for SHAP calculation for self-paced ensemble
+    \item Spearheaded the development of a credit risk score model.
+    \item Supervised the development of a car damage detection model and breast cancer prediction prototype using genome data (SNPs)
+ \end{itemize}
+ 
+\textbf{ML Engineer Internship} \hfill Dec 2021 - Aug 2022\\
+\href{https://www.promiseq.com}{promiseQ GmbH} \hfill \textit{Berlin, Germany}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Development of an efficient image stream-based motion detection system (MTS).
+     \item Automating deployment and testing through MLOps.
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PUBLICATIONS}
+\vspace{-1.25em}
+\item \textbf{\href{https://link.springer.com/chapter/10.1007/978-981-99-8184-7_34}{TEZARNet: TEmporal Zero-Shot Activity Recognition Network}} \hfill Jul 2022 - Jun 2023
+\item \textbf{\href{https://arxiv.org/abs/2411.10273}{Fill in the blanks: Rethinking Interpretability in vision}} \hfill Oct 2023 - Feb 2024
+\item \textbf{\href{https://arxiv.org/abs/2507.00050}{SEZ-HARN: Self-Explainable Zero-shot Human Activity Recognition Network}} \hfill Jul 2022 - Jun 2023
+\item \textbf{\href{https://arxiv.org/abs/2302.03873}{Geometric Perception-Based Efficient Text Recognition}} \hfill Jul 2022 - Feb 2023
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Digitgen: Python library for synthetic regular scene text dataset generation }\hfill \href{https://github.com/ACRA-FL/digitgen}{Github}
+
+This is a Python library for creating synthetic scene text and digits with various noises. It is intended to create synthetic datasets for regular scene text recognition and currently has 30k downloads.
+
+\textit{Technology}:- OpenCV, Python, Github CI/CD
+\item \textbf{Smart Breadboard for remote lab experiments }\hfill \href{https://drive.google.com/drive/u/0/folders/1xaSNThewvvsGVQ5pdaWTqzAHVvRtRN91}{Video and Report}
+
+Remote Access Breadboard will assist in electronics laboratory work during lockdowns during the pandemic. {\bf 1st place} at the IEEE {\bf PES} national design competition, selected from the IEE {\bf CAS} student design competition 2020-2021, to represent Sri Lanka in the IEEE region 10 (Australia-Asia-Pacific).
+
+\textit{Technology}:- Lucid Chart, Express 
+\item \textbf{Forestrack: Deforestation Tracking System}\hfill \href{https://drive.google.com/drive/folders/1QNPDZ0rpAtmN9D_4cJCMls4uN9GD2Hs8?usp=sharing}{Drive}
+\hspace{2mm}
+\href{https://github.com/Deforestration-Tracker-ADK/forestrack-core}{Github}
+
+Developing a deforestation tracking system that uses a semantic segmentation model to identify changes in Sri Lanka's vegetation coverage using satellite images.
+
+\textit{Technology}:- python, Tensorflow, Django, PlanetAPI
+
+\item \textbf{Predicting Pneumonia Using Human Chest X-ray}\hfill \href{https://medium.com/@devin.18/predicting-the-probability-of-pneumonia-using-chest-x-rays-and-cnns-67457529cf28}{Article}
+\hspace{2mm}
+\href{https://github.com/DevinDeSilva/Pneaumonia_prediction_using_chest_xrays}{Github}
+
+This task focuses on predicting the presence of pneumonia and its type (viral pneumonia or bacterial pneumonia) using human chest X-ray scans.
+
+\textit{Technology}:- PyTorch, Python , ResNet
+
+\item \textbf{Druggable Protein Prediction}\hfill \href{https://github.com/DevinDeSilva/DruggableProtienPrediction/blob/main/docs/Prediction_of_Durggable_Proteins_Report.pdf}{Report}
+\hspace{2mm}
+\href{https://github.com/DevinDeSilva/DruggableProtienPrediction/tree/main}{Github}
+
+Extracted features from protein strings for protein drugability prediction. Feature analysis and results presented in the report
+
+\textit{Technology}:- Sklearn, Python, Matplotlib
+\item \textbf{National Volunteering Platform - Backend Developer}\hfill \href{https://drive.google.com/file/d/1_by4Vxbjj341oY0Xyv1FldULncdpaRPX/view?usp=sharing}{Certificate}
+
+Development of a meeting platform for volunteering organizations and eager volunteers of Sri Lanka.
+
+\textit{Technology}:- Node.js, PostgreSQL, Springboot
+\item \textbf{Search Engine for Sinhala Metaphors and associated dataset}\hfill \href{https://github.com/DevinDeSilva/MetaphoreRecommendationSystem}{Github}
+\hspace{2mm}
+\href{https://www.kaggle.com/datasets/devindesilva1710/sinhala-song-metaphors}{Kaggle}
+
+\textit{Technology}:- ElasticSearch, NLTK, Fast-API
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Competitions and Hackathonss} 
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+Top Ten &  \href{https://github.com/BoTZ-TND/VIPCup-2022}{IEEE VIPCup'22}\\
+Champions & \href{https://drive.google.com/drive/folders/11yZMQ4NeLwWPrjqYd2D_5N9qIicXnBvP}{Data Storm 2021: All island open Data science and analytics hackathon}\\
+Champions & \href{https://drive.google.com/drive/folders/11yZMQ4NeLwWPrjqYd2D_5N9qIicXnBvP}{Datathon 2021: Inter-University Data Science Competition}\\
+Runners up & \href{https://drive.google.com/drive/folders/1H8TTCbwOZNHId4ebueD5T8CW7Qo06PmI}{Datathon 2023: Inter-University Data Science Competition}
+\end{tabular}
+
+
+\end{rSection}
+
+\begin{rSection}{Technical Skills} 
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+Languages & Python, Javascript \\
+Key Technologies & Pytorch, Tensorflow, SHAP, and Representation Learning
+\end{tabular}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Volunteering, Leadership and Extracurriculars} 
+\vspace{-1.25em}
+\item \textbf{Vice Chairperson of ACM students Chapter, University of Moratuwa}\hfill 2021-2022\\
+\item \textbf{International Coordinator, Nalanda College Astronomical Alumni Society}\hfill 2019-2020\\
+Working on awareness projects and presenting our projects on international platforms. Dumbara Sky was presented at the 9th Communicating Astronomy with the Public Conference (CAP) 2021
+
+\href{https://www.linkedin.com/posts/nalanda-college-astronomy_virtualcap2021-capconference-activity-6806453733996818432-5cLm}
+{Poster} \hspace{0.5mm} \href{https://youtu.be/n-3uiRxUGaw}
+{Youtube Presentation}
+
+\item Presenting our project  \textbf{TrailBlazer21} in Communicating Astronomy with the Public Conference (CAP) 2022 
+
+\href{https://drive.google.com/drive/folders/1av3B87YsL-kQWWhhfy79hljFgM_03Sr8?usp=share_link}{Images}
+ \hspace{0.5mm} 
+\href{https://drive.google.com/file/d/1jzb0nsaYMbM1C9SldCbKqJIjGZ62iaJs/view?usp=share_link}{Participation Invitation}
+
+\end{rSection} 
+
+
+\end{document}
